@@ -1,0 +1,20 @@
+.infos {
+    margin-top: 1%;
+    display: flex;
+    justify-content: center; /* Centraliza o conteúdo horizontalmente */
+    align-items: center; /* Centraliza o conteúdo verticalmente */
+    margin-bottom: 1%;
+    background-color: rgba(128, 128, 128, 0.100);
+}
+
+.infos iframe {
+    width: 1500px;
+    height: 450px
+}
+
+@media (max-width: 767px) {
+    .infos iframe {
+        width: 300px;
+        height: 300px
+    }
+}

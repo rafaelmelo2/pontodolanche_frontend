@@ -1,13 +1,16 @@
 .nav{
     background-color:red;
+    transition: background-color 0.3s ease;
 }
 
 .text-nav{
     color:yellow !important;
+    transition: color 0.3s ease;
+
 }
 
-#navbarScrollingDropdown{
-    color:yellow;
+.text-nav:hover{
+    color:white !important;
 }
 
 
