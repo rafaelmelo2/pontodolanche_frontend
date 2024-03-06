@@ -1,0 +1,26 @@
+/* Estilizando as imagens */
+#meucarousel .carousel-item img {
+    width: 100%; /* Definindo a largura das imagens para ocupar todo o espaço do carousel */
+    height: 500px;
+    object-fit: cover; /* Altura automática para manter a proporção da imagem */
+    
+  }
+  
+  /* Estilizando o texto dentro do carousel */
+  .carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5); /* Fundo semi-transparente para o texto */
+    text-align: center; /* Alinhamento do texto ao centro */
+    padding: 20px; /* Espaçamento interno do texto */
+  }
+  
+  .carousel-caption h5 {
+    font-size: 24px; /* Tamanho da fonte do título */
+    margin-bottom: 10px; /* Espaçamento inferior do título */
+    color:white;
+  }
+  
+  .carousel-caption p {
+    font-size: 16px; /* Tamanho da fonte do parágrafo */
+    color: white;
+  }
+  
