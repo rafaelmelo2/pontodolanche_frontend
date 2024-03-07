@@ -39,10 +39,10 @@ function NavBar() {
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
             <Nav className="me-auto mytext--2 my-lg-0" style={{ maxHeight: '100px' }} navbarScroll >
-            <Nav.Link className="text-nav" href="/">Home</Nav.Link>
-            <Nav.Link className="text-nav" href="#cardapio">Cardápio</Nav.Link>
-            <Nav.Link className="text-nav" href="#contatos">Contatos</Nav.Link>
-            <Nav.Link className="text-nav" href="#sobre">Sobre nós</Nav.Link>
+            <Nav.Link className="text-nav" href="/"><h5>HOME</h5></Nav.Link>
+            <Nav.Link className="text-nav" href="#cardapio"><h5>CARDÁPIO</h5></Nav.Link>
+            <Nav.Link className="text-nav" href="#contatos"><h5>CONTATOS</h5></Nav.Link>
+            <Nav.Link className="text-nav" href="#sobre"><h5>SOBRE NÓS</h5></Nav.Link>
             </Nav>
             <Form className="d-flex">
                 {isLoggedIn ? (
