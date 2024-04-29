@@ -5,7 +5,6 @@ import Row from 'react-bootstrap/Row';
 import xtudo from '../../img/x-tudo.jpg';
 import React, { useEffect } from 'react';
 import '../Home/css/Main.css';
-import { Typed } from 'react-typed';
 import cremeDeMorango from '../../img/creme de morango.jpg'
 import cremeDeMaracuja from '../../img/creme de maracuja.jpg'
 

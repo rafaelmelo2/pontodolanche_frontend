@@ -10,7 +10,7 @@ import logoImage from '../img/ponto do lanche.png'
 
 import CardLogin from './CardLogin';
 
-import {Button } from 'react-bootstrap';
+// import {Button } from 'react-bootstrap';
 function NavBar() {
 
     const [isLoggedIn, setIsLoggedIn] = useState(false);
