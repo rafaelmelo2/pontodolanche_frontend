@@ -6,12 +6,18 @@ import Infos from './Infos';
 
 
 function HomePage() {
+    useEffect(() => {
+        document.title = "Ponto do lanche"; // Defina o título desejado aqui
+    }, []);
+    
     return(
         <>
+        
         <NavBar />
         <Carousel />
         <Main />
         <Infos />
+        
         </>
     );
 }
