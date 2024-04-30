@@ -9,6 +9,7 @@ import userImage from '../img/usuario.png'
 import logoImage from '../img/ponto do lanche.png'
 
 import CardLogin from './CardLogin';
+
 function NavBar() {
 
     const [isLoggedIn, setIsLoggedIn] = useState(false);
